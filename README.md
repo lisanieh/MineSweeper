@@ -1,2 +1,8 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# minesweeper function
+
+## initial requirements
+you can download flutter through the official website and follow the guide:
+https://docs.flutter.dev/get-started/install
+
+## download package
+add package to your 
