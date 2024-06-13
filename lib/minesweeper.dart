@@ -48,7 +48,8 @@ Map minePosition(List board, int row, int col, int x, int y) {
     Random random = Random();
     int randPos = random.nextInt(row * col);
     while (minePos.contains(randPos)) {
-      randPos = random.nextInt(row * col);
+      // randPos = random.nextInt(row * col);
+      randPos++;
     }
     minePos.add(randPos);
     board[randPos] = -1;
